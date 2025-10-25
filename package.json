@@ -1,0 +1,79 @@
+{
+  "name": "glm-image-mcp",
+  "version": "2.1.0",
+  "description": "Enhanced MCP server for focused image analysis using OpenRouter and Google Gemini vision models",
+  "main": "glm-image-mcp.js",
+  "bin": {
+    "glm-image-mcp": "./glm-image-mcp.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": ["win32", "darwin", "linux"],
+  "scripts": {
+    "start": "node glm-image-mcp.js",
+    "test": "node examples/basic-analysis.js",
+    "test:validate": "node -c glm-image-mcp.js && node -c utils/validation.js",
+    "lint": "echo 'ESLint not configured - skipping lint check'",
+    "package": "npm pack",
+    "prepublishOnly": "npm test",
+    "example": "node examples/basic-analysis.js",
+    "config": "node examples/multi-provider-config.js --help"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.19.1",
+    "node-fetch": "^2.6.7",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "mcp",
+    "image-analysis",
+    "openrouter",
+    "gemini",
+    "vision",
+    "focused-analysis",
+    "region-detection",
+    "multi-provider",
+    "ai",
+    "artificial-intelligence",
+    "model-context-protocol",
+    "image-processing",
+    "computer-vision",
+    "api",
+    "server",
+    "nodejs",
+    "javascript"
+  ],
+  "author": {
+    "name": "Kilo Code",
+    "url": "https://kilocode.ai"
+  },
+  "contributors": [
+    {
+      "name": "QuicKK Apps",
+      "url": "https://quickkapps.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/glm-image-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/glm-image-mcp/issues"
+  },
+  "homepage": "https://github.com/your-username/glm-image-mcp#readme",
+  "files": [
+    "glm-image-mcp.js",
+    "utils/",
+    "examples/",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "preferGlobal": true,
+  "publishConfig": {
+    "access": "public"
+  }
+}
