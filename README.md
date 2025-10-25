@@ -236,7 +236,7 @@ Analyze specific aspects of an image with focused prompts.
 
 | Feature | OpenRouter | Google Gemini |
 |---------|-------------|---------------|
-| **Model Variety** | 50+ vision models | Gemini 1.5 Pro/Flash |
+| **Model Variety** | 50+ vision models | Gemini 2.5 Pro/Flash |
 | **Speed** | Fast | Very Fast |
 | **Cost** | Variable (per model) | Competitive |
 | **Accuracy** | High | Excellent |
