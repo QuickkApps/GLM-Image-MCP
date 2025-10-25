@@ -58,12 +58,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/glm-image-mcp.git"
+    "url": "https://github.com/QuickkApps/GLM-Image-MCP.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/glm-image-mcp/issues"
+    "url": "https://github.com/QuickkApps/GLM-Image-MCP/issues"
   },
-  "homepage": "https://github.com/your-username/glm-image-mcp#readme",
+  "homepage": "https://github.com/QuickkApps/GLM-Image-MCP#readme",
   "files": [
     "glm-image-mcp.js",
     "utils/",

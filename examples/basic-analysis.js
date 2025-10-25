@@ -118,6 +118,7 @@ async function runExamples() {
     console.log(`\n⚠️  Sample image not found at: ${sampleImagePath}`);
     console.log('Please add a sample image to test the examples.');
     console.log('You can download any image and save it as sample-image.jpg');
+    console.log('See sample-image.txt for instructions.');
     return;
   }
   

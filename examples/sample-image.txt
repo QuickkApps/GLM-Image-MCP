@@ -1,0 +1,11 @@
+This is a placeholder file for testing.
+For actual image testing, download any image and save it as sample-image.jpg in this examples folder.
+
+You can use any of these sample images:
+- A landscape photo
+- A document with text
+- A chart or graph
+- A face photo
+- An object recognition test image
+
+For testing purposes, any JPEG or PNG image will work.
