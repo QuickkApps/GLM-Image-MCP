@@ -48,28 +48,31 @@ glm-image-mcp/
 
 ## 🚀 Quick Start
 
-### Option 1: Install from npm (Recommended)
+### Option 1: Install Directly from GitHub (Recommended)
 
 ```bash
-# Install globally
-npm install -g glm-image-mcp
+# Install globally using npx (no npm publish needed)
+npx github:QuickkApps/GLM-Image-MCP
+
+# Or install globally using git
+npm install -g git+https://github.com/QuickkApps/GLM-Image-MCP.git
 
 # Or install locally
-npm install glm-image-mcp
+npm install git+https://github.com/QuickkApps/GLM-Image-MCP.git
 ```
 
 ### Option 2: Clone from GitHub
 
 ```bash
-git clone https://github.com/your-username/glm-image-mcp.git
-cd glm-image-mcp
+git clone https://github.com/QuickkApps/GLM-Image-MCP.git
+cd GLM-Image-MCP
 npm install
 ```
 
 ### Option 3: Use directly from GitHub (npx)
 
 ```bash
-npx glm-image-mcp
+npx github:QuickkApps/GLM-Image-MCP
 ```
 
 ## 🔧 Configuration
@@ -359,7 +362,7 @@ glm-image-mcp
 
 ### 2. Direct from GitHub
 ```bash
-npx glm-image-mcp
+npx github:QuickkApps/GLM-Image-MCP
 ```
 
 ### 3. Docker (Coming Soon)
