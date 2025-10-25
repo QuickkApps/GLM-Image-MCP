@@ -402,9 +402,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📧 Email: support@kilocode.ai
-- 🐛 Issues: [GitHub Issues](https://github.com/your-username/glm-image-mcp/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/your-username/glm-image-mcp/discussions)
+- 💬 Discord: [arshagor190](https://discord.com/users/arshagor190)
+- 🐛 Issues: [GitHub Issues](https://github.com/QuickkApps/GLM-Image-MCP/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/QuickkApps/GLM-Image-MCP/discussions)
 
 ---
 
