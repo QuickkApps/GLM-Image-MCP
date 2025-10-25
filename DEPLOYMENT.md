@@ -451,4 +451,4 @@ Your GLM Image MCP Server is now deployed and ready for use! Users can:
 3. **Clone from GitHub**: `git clone https://github.com/your-username/glm-image-mcp.git`
 4. **Configure MCP clients** with provided examples
 
-**Made with ❤️ by [Kilo Code](https://kilocode.ai/) and [QuicKK Apps](https://quickkapps.com/)**
+**Made with ❤️ by [QuicKK Apps]**
