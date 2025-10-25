@@ -15,7 +15,7 @@ const configurations = {
     name: "Claude Desktop",
     config: {
       mcpServers: {
-        "image-analyzer": {
+        "glm-image-mcp": {
           command: "npx",
           args: ["glm-image-mcp"],
           env: {
@@ -34,7 +34,7 @@ const configurations = {
     name: "GLM 4.6",
     config: {
       mcpServers: {
-        "image-analyzer": {
+        "glm-image-mcp": {
           command: "node",
           args: ["glm-image-mcp.js"],
           cwd: "/path/to/glm-image-mcp",
@@ -52,7 +52,7 @@ const configurations = {
     name: "Local Development",
     config: {
       mcpServers: {
-        "image-analyzer": {
+        "glm-image-mcp": {
           command: "node",
           args: ["glm-image-mcp.js"],
           cwd: __dirname + "/..",
@@ -72,7 +72,7 @@ const configurations = {
     name: "Production with Fallbacks",
     config: {
       mcpServers: {
-        "image-analyzer": {
+        "glm-image-mcp": {
           command: "npx",
           args: ["glm-image-mcp@latest"],
           env: {

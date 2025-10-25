@@ -98,7 +98,7 @@ Configure your MCP client (like Claude Desktop, GLM, or any MCP-compatible IDE):
 ```json
 {
   "mcpServers": {
-    "image-analyzer": {
+    "glm-image-mcp": {
       "command": "npx",
       "args": ["github:QuickkApps/GLM-Image-MCP"],
       "env": {
@@ -139,7 +139,7 @@ For local development:
 ```json
 {
   "mcpServers": {
-    "image-analyzer": {
+    "glm-image-mcp": {
       "command": "node",
       "args": ["glm-image-mcp.js"],
       "cwd": "/path/to/glm-image-mcp",
@@ -349,7 +349,7 @@ This MCP server works seamlessly with any MCP-compatible client:
 ```json
 {
   "mcpServers": {
-    "image-analyzer": {
+    "glm-image-mcp": {
       "command": "npx",
       "args": ["glm-image-mcp"]
     }

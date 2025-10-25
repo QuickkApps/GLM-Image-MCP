@@ -38,7 +38,7 @@ If applicable, add screenshots to help explain your problem.
 ```json
 {
   "mcpServers": {
-    "image-analyzer": {
+    "glm-image-mcp": {
       "command": "...",
       "args": [...],
       "env": {
