@@ -11,7 +11,7 @@
 
 ### 🎯 Multi-Provider Support
 - **OpenRouter**: Access to multiple vision models including x-ai/grok-4-fast:free, Claude, and more
-- **Google Gemini**: Direct access to Gemini 1.5 Pro and Flash models
+- **Google Gemini**: Direct access to Gemini 2.5 Pro and Flash models
 - **Flexible Switching**: Choose provider per request or set environment defaults
 - **Auto-Detection**: Automatically detects available API keys and selects the best provider
 
