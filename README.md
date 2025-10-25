@@ -100,7 +100,7 @@ Configure your MCP client (like Claude Desktop, GLM, or any MCP-compatible IDE):
   "mcpServers": {
     "image-analyzer": {
       "command": "npx",
-      "args": ["glm-image-mcp"],
+      "args": ["github:QuickkApps/GLM-Image-MCP"],
       "env": {
         "OPENROUTER_API_KEY": "your-openrouter-key",
         "OPENROUTER_MODEL": "x-ai/grok-4-fast:free",
@@ -110,6 +110,26 @@ Configure your MCP client (like Claude Desktop, GLM, or any MCP-compatible IDE):
     }
   }
 }
+```
+
+### 4. Model Configuration
+
+You can set custom models via environment variables:
+
+```bash
+# For OpenRouter models
+export OPENROUTER_MODEL="anthropic/claude-3-sonnet"
+export OPENROUTER_MODEL="openai/gpt-4-vision-preview"
+export OPENROUTER_MODEL="x-ai/grok-4-fast:free"
+
+# For Google Gemini models
+export GEMINI_MODEL="gemini-1.5-flash"
+export GEMINI_MODEL="gemini-2.5-pro"
+export GEMINI_MODEL="gemini-1.5-pro"
+
+# Use with npx
+OPENROUTER_MODEL="anthropic/claude-3-sonnet" npx github:QuickkApps/GLM-Image-MCP
+GEMINI_MODEL="gemini-1.5-flash" npx github:QuickkApps/GLM-Image-MCP
 ```
 
 ### 3. Local Development Configuration
@@ -363,6 +383,10 @@ glm-image-mcp
 ### 2. Direct from GitHub
 ```bash
 npx github:QuickkApps/GLM-Image-MCP
+
+# With custom model
+OPENROUTER_MODEL="anthropic/claude-3-sonnet" npx github:QuickkApps/GLM-Image-MCP
+GEMINI_MODEL="gemini-1.5-flash" npx github:QuickkApps/GLM-Image-MCP
 ```
 
 ### 3. Docker (Coming Soon)
